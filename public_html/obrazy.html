@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <title>wstawianie obrazów na strone www</title>
+    <link rel="stylesheet" href="./css/style.css">
     <style>
         img { border: 1px solid #F00; }
         .lewy { float: left; margin-right: 15px; }
@@ -40,7 +41,12 @@
             #kolory {
                 color: yellow;
                 }
-            
+                
+                #link1{
+                    color: blue
+                    }
+            #listy wew  {color: red;}
+            li.wew {color: yellow;}
     </style>
 </head>
 
@@ -66,9 +72,24 @@
         
         <div>
             <p class="zielony">Akapit 7 tekst podstawowy<a href="whow2html.pl" id="kolory">Kurs HTML</a></p>
+            <ol>
+                <li><a id="link1" class="zielony" style="color: orange">kurs HTML</a></li>
+                <li><a ></a>kurs HTML</li>
+                <li><a ></a>kurs HTML</li>
+            </ol>
             <p>Akapit 8 tekst podstawowy</p>
             <p>Akapit 9 tekst podstawowy</p>
         </div>
+        
+    <div id="listy">
+        <ul>
+            <li>
+                <ul>
+                    <li class="wew">elementy listy zagnieżdżonej</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
 
 </body>
 

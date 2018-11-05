@@ -2,14 +2,17 @@
 # -*- coding: utf-8 -*-
 
 
-
 def main(args):
     a = input('podaj bok a:')
     b = input('podaj bok b:')
+    c = input('podaj bok c:')
 
-    obwod = 2 * (int(a) + int(b))
-    print(obwod)
+    if a + b > c:
+        if a+ c > b:
+            pass
+
     return 0
+
 
 if __name__ == '__main__':
     import sys

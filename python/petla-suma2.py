@@ -8,11 +8,10 @@ def main(args):
     
     suma = 0
     liczba = int(input("podaj liczbe: "))
-    while suma =< 75:
-        suma += liczba
+    while suma < 75:
         print(suma)
+        suma += liczba
         liczba = int(input("podaj liczbe: "))
-                                                                                 
     print()
     print("suma liczb: ", suma)
     return 0

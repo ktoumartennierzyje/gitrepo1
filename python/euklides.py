@@ -27,7 +27,7 @@ def testuj():
 def main(args):
     a = int(input('Podaj liczbę a: '))
     b = int(input('Podaj liczbę b: '))
-    #print(nwdv2(a, b))
+    print(nwdv2(a, b))
     testuj()
     return 0
 

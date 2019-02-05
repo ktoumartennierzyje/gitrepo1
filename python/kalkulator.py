@@ -3,6 +3,9 @@
 #
 #  kalkulator.py
 
+
+from math import sin, cos, pi
+
 def pokaz_liste():
     print('''Lista działań:
           +  – dodawanie
@@ -17,37 +20,80 @@ def pokaz_liste():
           cos – cosinus
           koniec – wyjście z programu
           ''')
+
+
+def dodaj(a, b):
+    return a + b
+
+    
+def odejmij(a, b):
+    return a - b
+
+    
+def mnoz(a, b):
+    return a * b
+
           
 def dziel(a, b):
     if b != 0:
         return a / b
     else:
         print('Błąd dzielenia przez 0')
-        return 0
+        return False
+
+def sinus(stopien):
+    if -1 < stopien < 361:
+        return sin(stopien * pi / 180)
+    print('Błędny zakres stopni')
+    return False
+
+
+def cosinus(stopien):
+    if -1 < stopien < 361:
+        return cos(stopien * pi / 180)
+    print('Błędny zakres stopni')
+    return False
+        
           
 def pobierz_liczbe(komunikat='Pobierz liczbę: '):
     a = input(komunikat)
     if a.isdigit():
         return int(a)
-    return false
+    return False
+
 
 def main(args):
     pokaz_liste()
     while True:
         d = input('Wybierz działanie')
         if d == '+':
-            pass
+            a = pobierz_liczbe('Podaj liczbe: ')
+            b = pobierz_liczbe('Podaj liczbe: ')
+            if a and b:
+                wynik = dodaj(a,b)
+                if wynik:
+                    print(' {} + {} = {} '.format(a, b, wynik ))
         elif d == '-':
-            pass
+            a = pobierz_liczbe('Podaj odjemną: ')
+            b = pobierz_liczbe('Podaj odjemnik: ')
+            if a and b:
+                wynik = odejmij(a,b)
+                if wynik:
+                    print(' {} - {} = {} '.format(a, b, wynik ))
         elif d == '*':
-            pass
+            a = pobierz_liczbe('Podaj czynnik: ')
+            b = pobierz_liczbe('Podaj czynnik: ')
+            if a and b:
+                wynik = mnoz(a,b)
+                if wynik:
+                    print(' {} * {} = {} '.format(a, b, wynik ))
         elif d == '/':
             a = pobierz_liczbe('Podaj dzielną: ')
             b = pobierz_liczbe('Podaj dzielnik: ')
             if a and b:
                 wynik = dziel(a,b)
                 if wynik:
-                    print('{} / {} '.format(a, b, wynik ))
+                    print(' {} / {} = {} '.format(a, b, wynik ))
         elif d == '//':
             pass
         elif d == '%':
@@ -57,9 +103,13 @@ def main(args):
         elif d == '!':
             pass
         elif d == 'sin':
-            pass
+            a = pobierz_liczbe('Podaj kąt w stopniach: ')
+            if not isinstance(a, (bool)):
+                print('sin({}) = {}'.format(a, sinus(a)))
         elif d == 'cos':
-            pass
+            a = pobierz_liczbe('Podaj kąt w stopniach: ')
+            if not isinstance(a, (bool)):
+                print('cos({}) = {}'.format(a, cosinus(a)))
         elif d == 'koniec':
             return 0
         else:

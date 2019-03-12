@@ -3,11 +3,17 @@
 #
 #  tlumacz.py
 
+
+from random import randint
+import os
+import json
+
+
+
 def pokaz_menu():
     """Funkcja wyświetla działania dostępne dla użytkownia"""
     print("""
     Wybierz działanie:
-
     1. Lista słów
     2. Wprowadzanie / edycja słów
     3. Tłumaczenie
@@ -15,37 +21,90 @@ def pokaz_menu():
     5. Koniec
 """)
 
+
 def listaSlow(dane):
     if not dane:
-        print('Brak słów')
+        print('Brak słów.')
         return
     i = 1
     print()
     for slowo, znaczenia in dane.items():
-        print('{}. {}:{}'.format(i, slowo, ','.join(dane[slowo])))
+        print('{}. {}: {}'.format(i, slowo, ','.join(dane[slowo])))
         i += 1
 
 
 def pobierzZnaczenia():
-    zanczenia = input('Podaj znaczrnie(a) oddzielone przecinkami:\n')
+    znaczenia = input('Podaj znaczenie(a) oddzielone przecinkami:\n')
     znaczenia = znaczenia.split(',')
     znaczenia = [z.strip() for z in znaczenia]
     return znaczenia
 
 
 def pobierzDane(dane):
-    slowo = input('Podaj slowo: ').strip()
+    slowo = input('Podaj słowo: ').strip()
     if slowo in dane.keys():
-        print('Slowo w bazie.')
-        print('{}:{}'.format(slowo, ','.join(dane[slowo])))
-        if input ('Czy chcesz zmienić znaczenia(t/n)?').lower() == 't':
+        print('Słowo w bazie.')
+        print('{}: {}'.format(slowo, ','.join(dane[slowo])))
+        if input('Czy chcesz zmienić znaczenia (t/n)?').lower() == 't':
             dane[slowo] = pobierzZnaczenia()
     else:
         dane[slowo] = pobierzZnaczenia()
 
 
+def tłumacz(dane):
+    if not dane:
+        print('Brak słów')
+        return
+    slowa = list(dane.keys())
+    op = 't'
+    while op == 't':
+        if len(slowa) > 1 :
+            slowo = slowa[randint(0, len(slowa) - 1)]
+        else:
+            slowo = slowa[0]
+        print ('przetłumacz: ', slowo)
+        znaczenia = pobierzZnaczenia()
+        poprawne = [z for z in znaczenia if z in dane[slowo]]
+        if poprawane:
+            print ('Poprawne:', ', '.join(poprawne))
+            slowa.remove(slowo)
+        else:
+            print('Brak poprawnych znaczeń')
+        if slowa:
+            op = input('Następne(t/n)').lower()
+        else:
+            print('Przetłumaczyłeś wszystko!')
+            return
+
+
+def wczytaj_dane(plik, roz='.dat'):
+    dane = {}
+    if os.path.isfile(plik + roz):
+        with open(plik + roz, "r") as f:
+            dane = json.load(f)
+    else:
+        print('Plik {} nie istnieje.' .format(plik + roz))
+    return dane
+
+
+def wybierz_język(konf_dane):
+    if konf_dane['języki']:
+        print("Wybierz język")
+        for i, j in enumerate(konf_dane['jezyki']):
+            print('{} .{}'.format(i + 1, j))
+        print('{}. nowy język'.format(i + 2))
+
+
 def main(args):
-    dane = {'go': ['iść', 'jeżdzić'], 'see': ['widzieć', 'oglądać']}
+    # dane = {'go': ['iść', 'jeżdzić'], 'see': ['widzieć', 'oglądać']}
+    
+    konf_plik = 'baza'
+    konf_dane = wczytaj_dane(konf_plik)
+    if 'języki' not in konf_dane:
+        konf_dane['języki'] = []
+    język = wybierz_język(konf_dane) 
+    print(konf_dane)
+    return 
     
     operacja = 0
     while operacja != 5:
@@ -57,6 +116,8 @@ def main(args):
             print('\n Do zobaczenia!')
         elif operacja ==2:
             pobierzDane(dane)
+        elif operacja == 3:
+            tłumacz(dane)
         else:
             print('Błędny wybór')
             

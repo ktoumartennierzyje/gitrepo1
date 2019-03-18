@@ -9,7 +9,6 @@ import os
 import json
 
 
-
 def pokaz_menu():
     """Funkcja wyświetla działania dostępne dla użytkownia"""
     print("""
@@ -51,31 +50,32 @@ def pobierzDane(dane):
         dane[slowo] = pobierzZnaczenia()
 
 
-def tłumacz(dane):
+def tlumacz(dane):
     if not dane:
-        print('Brak słów')
+        print('Brak słów.')
         return
     slowa = list(dane.keys())
     op = 't'
     while op == 't':
-        if len(slowa) > 1 :
+        if len(slowa) > 1:
             slowo = slowa[randint(0, len(slowa) - 1)]
         else:
             slowo = slowa[0]
-        print ('przetłumacz: ', slowo)
+        print('Przetłumacz:', slowo)
         znaczenia = pobierzZnaczenia()
         poprawne = [z for z in znaczenia if z in dane[slowo]]
-        if poprawane:
-            print ('Poprawne:', ', '.join(poprawne))
+        if poprawne:
+            print('Poprawne:', ', '.join(poprawne))
             slowa.remove(slowo)
         else:
             print('Brak poprawnych znaczeń')
         if slowa:
-            op = input('Następne(t/n)').lower()
+            op = input('Następne (t/n)? ').lower()
+            print()
         else:
             print('Przetłumaczyłeś wszystko!')
             return
-
+        
 
 def wczytaj_dane(plik, roz='.dat'):
     dane = {}
@@ -83,28 +83,40 @@ def wczytaj_dane(plik, roz='.dat'):
         with open(plik + roz, "r") as f:
             dane = json.load(f)
     else:
-        print('Plik {} nie istnieje.' .format(plik + roz))
+        print('Plik {} nie istnieje.'.format(plik + roz))
     return dane
 
-
-def wybierz_język(konf_dane):
-    if konf_dane['języki']:
-        print("Wybierz język")
+def wybierzJezyk(konf_dane):
+    if konf_dane['jezyki']:
+        print('Wybierz język: ')
         for i, j in enumerate(konf_dane['jezyki']):
-            print('{} .{}'.format(i + 1, j))
+            print('{}. {}'.format(i + 1, j))
         print('{}. nowy język'.format(i + 2))
+        jezyk = int(input('Podaj numer: '))
+        if jezyk == (len(konf_dane['jezyki']) +1):
+            jezyk = input('Podaj język (angielski itp.): ')
+        else:
+            jezyk = konf_dane['jezyki'][jezyk - 1]
+    else:
+        jezyk = input('Podaj język (angielski itp.): ')
+
+    return jezyk
+
+
+def zapiszDane(plik, dane, roz='.dat'):
+    with open(plik + roz, "w") as f:
+        json.dump(dane, f)
 
 
 def main(args):
-    # dane = {'go': ['iść', 'jeżdzić'], 'see': ['widzieć', 'oglądać']}
+    # dane ={'go': ['iść', 'jeździć'], 'see': ['widzieć', 'oglądać']}
     
     konf_plik = 'baza'
     konf_dane = wczytaj_dane(konf_plik)
-    if 'języki' not in konf_dane:
-        konf_dane['języki'] = []
-    język = wybierz_język(konf_dane) 
-    print(konf_dane)
-    return 
+    if 'jezyki' not in konf_dane:
+        konf_dane['jezyki'] = []
+    jezyk = wybierzJezyk(konf_dane)
+    dane = wczytaj_dane(jezyk)
     
     operacja = 0
     while operacja != 5:
@@ -112,17 +124,24 @@ def main(args):
         operacja = int(input(""))
         if operacja == 1:
             listaSlow(dane)
-        elif operacja ==5:
-            print('\n Do zobaczenia!')
-        elif operacja ==2:
+        elif operacja == 2:
             pobierzDane(dane)
+            zapiszDane(jezyk, dane)
         elif operacja == 3:
-            tłumacz(dane)
+            tlumacz(dane)
+        elif operacja == 4:
+            jezyk = wybierzJezyk(konf_dane)
+            dane = wczytaj_dane(jezyk)
+        elif operacja == 5:
+            if jezyk not in konf_dane['jezyki']:
+                konf_dane['jezyki'].append(jezyk)
+            zapiszDane(konf_plik, konf_dane)
+            print('\nDo zobaczenia!')
         else:
-            print('Błędny wybór')
+            print('Błędny wybór!')
             
     return 0
 
 if __name__ == '__main__':
     import sys
-    sys.exit(main(sys.argv))
+sys.exit(main(sys.argv))

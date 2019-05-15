@@ -9,7 +9,7 @@ def main(args):
 
     if a + b > c:
         if a+ c > b:
-            pass
+            pa
 
     return 0
 

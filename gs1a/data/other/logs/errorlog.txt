@@ -1,0 +1,132 @@
+[21-May-2019 15:28:08 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/lo1sand/public_html/gs1a/admin/install.php on line 44
+[21-May-2019 15:28:08 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/lo1sand/public_html/gs1a/admin/install.php on line 44
+[21-May-2019 15:28:08 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/lo1sand/public_html/gs1a/admin/install.php on line 44
+[21-May-2019 15:28:08 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/lo1sand/public_html/gs1a/admin/install.php on line 44
+[21-May-2019 15:28:08 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/lo1sand/public_html/gs1a/admin/install.php on line 44
+[21-May-2019 15:28:08 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/lo1sand/public_html/gs1a/admin/install.php on line 44
+[21-May-2019 15:28:08 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/lo1sand/public_html/gs1a/admin/install.php on line 44
+[21-May-2019 15:28:08 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/lo1sand/public_html/gs1a/admin/install.php on line 44
+[21-May-2019 15:32:16 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/lo1sand/public_html/gs1a/admin/install.php on line 44
+[21-May-2019 15:32:16 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/lo1sand/public_html/gs1a/admin/install.php on line 44
+[21-May-2019 15:32:16 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/lo1sand/public_html/gs1a/admin/install.php on line 44
+[21-May-2019 15:32:16 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/lo1sand/public_html/gs1a/admin/install.php on line 44
+[21-May-2019 15:32:16 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/lo1sand/public_html/gs1a/admin/install.php on line 44
+[21-May-2019 15:32:16 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/lo1sand/public_html/gs1a/admin/install.php on line 44
+[21-May-2019 15:32:16 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/lo1sand/public_html/gs1a/admin/install.php on line 44
+[21-May-2019 15:32:16 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/lo1sand/public_html/gs1a/admin/install.php on line 44
+[21-May-2019 15:32:16 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/lo1sand/public_html/gs1a/admin/install.php on line 44
+[21-May-2019 15:32:16 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/lo1sand/public_html/gs1a/admin/install.php on line 44
+[21-May-2019 15:32:16 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/lo1sand/public_html/gs1a/admin/install.php on line 44
+[28-May-2019 16:18:19 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[29-May-2019 09:10:50 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/template_functions.php on line 1043
+[29-May-2019 09:11:05 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[29-May-2019 09:11:05 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[29-May-2019 09:31:59 Europe/Sarajevo] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[29-May-2019 09:32:02 Europe/Sarajevo] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[29-May-2019 09:32:03 Europe/Sarajevo] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[29-May-2019 09:38:02 Europe/Sarajevo] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; I18nNavigationItem has a deprecated constructor in /home/kl1ag1/public_html/gs1a/plugins/i18n_navigation/frontend.class.php on line 349
+[29-May-2019 09:38:02 Europe/Sarajevo] PHP Notice:  Undefined offset: 0 in /home/kl1ag1/public_html/gs1a/theme/Klasa/header.inc.php on line 31
+[29-May-2019 09:38:03 Europe/Sarajevo] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[29-May-2019 09:38:03 Europe/Sarajevo] PHP Notice:  Undefined offset: 0 in /home/kl1ag1/public_html/gs1a/theme/Klasa/header.inc.php on line 31
+[29-May-2019 09:38:03 Europe/Sarajevo] PHP Notice:  Undefined offset: 0 in /home/kl1ag1/public_html/gs1a/theme/Klasa/header.inc.php on line 31
+[29-May-2019 09:38:04 Europe/Sarajevo] PHP Notice:  Undefined offset: 0 in /home/kl1ag1/public_html/gs1a/theme/Klasa/header.inc.php on line 31
+[29-May-2019 09:40:32 Europe/Sarajevo] PHP Notice:  Undefined offset: 0 in /home/kl1ag1/public_html/gs1a/theme/Klasa/header.inc.php on line 31
+[04-Jun-2019 11:01:47 Europe/Sarajevo] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/template_functions.php on line 1043
+[04-Jun-2019 11:01:52 Europe/Sarajevo] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; I18nNavigationItem has a deprecated constructor in /home/kl1ag1/public_html/gs1a/plugins/i18n_navigation/frontend.class.php on line 349
+[04-Jun-2019 11:01:54 Europe/Sarajevo] PHP Notice:  Undefined offset: 0 in /home/kl1ag1/public_html/gs1a/theme/Klasa/header.inc.php on line 31
+[04-Jun-2019 11:08:30 Europe/Sarajevo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/kl1ag1/public_html/gs1a/plugins/i18n_navigation/frontend.class.php on line 219
+[04-Jun-2019 11:08:30 Europe/Sarajevo] PHP Notice:  Undefined offset: 0 in /home/kl1ag1/public_html/gs1a/theme/Klasa/header.inc.php on line 31
+[04-Jun-2019 11:10:47 Europe/Sarajevo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/kl1ag1/public_html/gs1a/plugins/i18n_navigation/frontend.class.php on line 219
+[04-Jun-2019 11:10:47 Europe/Sarajevo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/kl1ag1/public_html/gs1a/plugins/i18n_navigation/frontend.class.php on line 219
+[04-Jun-2019 11:10:47 Europe/Sarajevo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/kl1ag1/public_html/gs1a/plugins/i18n_navigation/frontend.class.php on line 219
+[04-Jun-2019 11:10:47 Europe/Sarajevo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/kl1ag1/public_html/gs1a/plugins/i18n_navigation/frontend.class.php on line 219
+[04-Jun-2019 11:10:47 Europe/Sarajevo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/kl1ag1/public_html/gs1a/plugins/i18n_navigation/frontend.class.php on line 219
+[04-Jun-2019 11:10:47 Europe/Sarajevo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/kl1ag1/public_html/gs1a/plugins/i18n_navigation/frontend.class.php on line 219
+[04-Jun-2019 11:10:47 Europe/Sarajevo] PHP Notice:  Undefined offset: 0 in /home/kl1ag1/public_html/gs1a/theme/Klasa/header.inc.php on line 31
+[04-Jun-2019 11:12:01 Europe/Sarajevo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/kl1ag1/public_html/gs1a/admin/changedata.php on line 60
+[04-Jun-2019 11:12:01 Europe/Sarajevo] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[04-Jun-2019 11:12:01 Europe/Sarajevo] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[04-Jun-2019 11:12:01 Europe/Sarajevo] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[04-Jun-2019 11:12:01 Europe/Sarajevo] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[04-Jun-2019 11:12:01 Europe/Sarajevo] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[04-Jun-2019 11:13:31 Europe/Sarajevo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/kl1ag1/public_html/gs1a/admin/changedata.php on line 52
+[04-Jun-2019 11:13:31 Europe/Sarajevo] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[04-Jun-2019 11:13:31 Europe/Sarajevo] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[04-Jun-2019 11:13:36 Europe/Sarajevo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/kl1ag1/public_html/gs1a/plugins/i18n_navigation/frontend.class.php on line 219
+[04-Jun-2019 11:13:36 Europe/Sarajevo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/kl1ag1/public_html/gs1a/plugins/i18n_navigation/frontend.class.php on line 219
+[04-Jun-2019 11:13:36 Europe/Sarajevo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/kl1ag1/public_html/gs1a/plugins/i18n_navigation/frontend.class.php on line 219
+[04-Jun-2019 11:13:36 Europe/Sarajevo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/kl1ag1/public_html/gs1a/plugins/i18n_navigation/frontend.class.php on line 219
+[04-Jun-2019 11:13:36 Europe/Sarajevo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/kl1ag1/public_html/gs1a/plugins/i18n_navigation/frontend.class.php on line 219
+[04-Jun-2019 11:13:36 Europe/Sarajevo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/kl1ag1/public_html/gs1a/plugins/i18n_navigation/frontend.class.php on line 219
+[04-Jun-2019 11:13:36 Europe/Sarajevo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/kl1ag1/public_html/gs1a/plugins/i18n_navigation/frontend.class.php on line 219
+[04-Jun-2019 11:13:36 Europe/Sarajevo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/kl1ag1/public_html/gs1a/plugins/i18n_navigation/frontend.class.php on line 219
+[04-Jun-2019 11:13:36 Europe/Sarajevo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/kl1ag1/public_html/gs1a/plugins/i18n_navigation/frontend.class.php on line 219
+[04-Jun-2019 11:13:36 Europe/Sarajevo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/kl1ag1/public_html/gs1a/plugins/i18n_navigation/frontend.class.php on line 219
+[04-Jun-2019 11:13:36 Europe/Sarajevo] PHP Notice:  Undefined offset: 0 in /home/kl1ag1/public_html/gs1a/theme/Klasa/header.inc.php on line 31
+[04-Jun-2019 11:15:01 Europe/Sarajevo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/kl1ag1/public_html/gs1a/admin/changedata.php on line 52
+[04-Jun-2019 11:15:01 Europe/Sarajevo] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[04-Jun-2019 11:15:01 Europe/Sarajevo] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[04-Jun-2019 11:15:01 Europe/Sarajevo] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[04-Jun-2019 11:15:01 Europe/Sarajevo] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[04-Jun-2019 11:15:01 Europe/Sarajevo] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[04-Jun-2019 11:15:03 Europe/Sarajevo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/kl1ag1/public_html/gs1a/plugins/i18n_navigation/frontend.class.php on line 219
+[04-Jun-2019 11:15:03 Europe/Sarajevo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/kl1ag1/public_html/gs1a/plugins/i18n_navigation/frontend.class.php on line 219
+[04-Jun-2019 11:15:03 Europe/Sarajevo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/kl1ag1/public_html/gs1a/plugins/i18n_navigation/frontend.class.php on line 219
+[04-Jun-2019 11:15:03 Europe/Sarajevo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/kl1ag1/public_html/gs1a/plugins/i18n_navigation/frontend.class.php on line 219
+[04-Jun-2019 11:15:03 Europe/Sarajevo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/kl1ag1/public_html/gs1a/plugins/i18n_navigation/frontend.class.php on line 219
+[04-Jun-2019 11:15:03 Europe/Sarajevo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/kl1ag1/public_html/gs1a/plugins/i18n_navigation/frontend.class.php on line 219
+[04-Jun-2019 11:15:03 Europe/Sarajevo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/kl1ag1/public_html/gs1a/plugins/i18n_navigation/frontend.class.php on line 219
+[04-Jun-2019 11:15:03 Europe/Sarajevo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/kl1ag1/public_html/gs1a/plugins/i18n_navigation/frontend.class.php on line 219
+[04-Jun-2019 11:15:03 Europe/Sarajevo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/kl1ag1/public_html/gs1a/plugins/i18n_navigation/frontend.class.php on line 219
+[04-Jun-2019 11:15:03 Europe/Sarajevo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/kl1ag1/public_html/gs1a/plugins/i18n_navigation/frontend.class.php on line 219
+[04-Jun-2019 11:15:03 Europe/Sarajevo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/kl1ag1/public_html/gs1a/plugins/i18n_navigation/frontend.class.php on line 219
+[04-Jun-2019 11:15:03 Europe/Sarajevo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/kl1ag1/public_html/gs1a/plugins/i18n_navigation/frontend.class.php on line 219
+[04-Jun-2019 11:15:03 Europe/Sarajevo] PHP Notice:  Undefined offset: 0 in /home/kl1ag1/public_html/gs1a/theme/Klasa/header.inc.php on line 31
+[04-Jun-2019 11:19:49 Europe/Sarajevo] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; I18nNavigationItem has a deprecated constructor in /home/kl1ag1/public_html/gs1a/plugins/i18n_navigation/frontend.class.php on line 350
+[04-Jun-2019 11:19:49 Europe/Sarajevo] PHP Notice:  Undefined offset: 0 in /home/kl1ag1/public_html/gs1a/theme/Klasa/header.inc.php on line 31
+[04-Jun-2019 11:20:26 Europe/Sarajevo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/kl1ag1/public_html/gs1a/admin/changedata.php on line 52
+[04-Jun-2019 11:20:26 Europe/Sarajevo] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[04-Jun-2019 11:20:26 Europe/Sarajevo] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[04-Jun-2019 11:20:28 Europe/Sarajevo] PHP Notice:  Undefined offset: 0 in /home/kl1ag1/public_html/gs1a/theme/Klasa/header.inc.php on line 31
+[04-Jun-2019 11:20:56 Europe/Sarajevo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/kl1ag1/public_html/gs1a/admin/changedata.php on line 52
+[04-Jun-2019 11:20:56 Europe/Sarajevo] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[04-Jun-2019 11:20:56 Europe/Sarajevo] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[04-Jun-2019 11:21:03 Europe/Sarajevo] PHP Notice:  Undefined offset: 0 in /home/kl1ag1/public_html/gs1a/theme/Klasa/header.inc.php on line 31
+[04-Jun-2019 11:21:03 Europe/Sarajevo] PHP Notice:  Undefined offset: 0 in /home/kl1ag1/public_html/gs1a/theme/Klasa/header.inc.php on line 31
+[04-Jun-2019 11:22:39 Europe/Sarajevo] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[04-Jun-2019 11:22:46 Europe/Sarajevo] PHP Notice:  Undefined offset: 0 in /home/kl1ag1/public_html/gs1a/theme/Klasa/header.inc.php on line 31
+[04-Jun-2019 11:22:47 Europe/Sarajevo] PHP Notice:  Undefined offset: 0 in /home/kl1ag1/public_html/gs1a/theme/Klasa/header.inc.php on line 31
+[04-Jun-2019 11:22:51 Europe/Sarajevo] PHP Notice:  Undefined offset: 0 in /home/kl1ag1/public_html/gs1a/theme/Klasa/header.inc.php on line 31
+[04-Jun-2019 11:23:21 Europe/Sarajevo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/kl1ag1/public_html/gs1a/admin/changedata.php on line 52
+[04-Jun-2019 11:23:21 Europe/Sarajevo] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[04-Jun-2019 11:23:21 Europe/Sarajevo] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[04-Jun-2019 11:23:21 Europe/Sarajevo] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[04-Jun-2019 11:23:21 Europe/Sarajevo] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[04-Jun-2019 11:23:21 Europe/Sarajevo] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[04-Jun-2019 11:23:35 Europe/Sarajevo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/kl1ag1/public_html/gs1a/admin/changedata.php on line 52
+[04-Jun-2019 11:23:35 Europe/Sarajevo] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[04-Jun-2019 11:23:35 Europe/Sarajevo] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[04-Jun-2019 11:23:39 Europe/Sarajevo] PHP Notice:  Undefined offset: 0 in /home/kl1ag1/public_html/gs1a/theme/Klasa/header.inc.php on line 31
+[04-Jun-2019 11:23:51 Europe/Sarajevo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/kl1ag1/public_html/gs1a/admin/changedata.php on line 52
+[04-Jun-2019 11:23:51 Europe/Sarajevo] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[04-Jun-2019 11:23:51 Europe/Sarajevo] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[04-Jun-2019 11:23:51 Europe/Sarajevo] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[04-Jun-2019 11:23:51 Europe/Sarajevo] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[04-Jun-2019 11:23:51 Europe/Sarajevo] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[04-Jun-2019 11:23:53 Europe/Sarajevo] PHP Notice:  Undefined offset: 0 in /home/kl1ag1/public_html/gs1a/theme/Klasa/header.inc.php on line 31
+[04-Jun-2019 11:24:15 Europe/Sarajevo] PHP Notice:  Undefined offset: 0 in /home/kl1ag1/public_html/gs1a/theme/Klasa/header.inc.php on line 31
+[04-Jun-2019 11:24:16 Europe/Sarajevo] PHP Notice:  Undefined offset: 0 in /home/kl1ag1/public_html/gs1a/theme/Klasa/header.inc.php on line 31
+[04-Jun-2019 11:24:19 Europe/Sarajevo] PHP Notice:  Undefined offset: 0 in /home/kl1ag1/public_html/gs1a/theme/Klasa/header.inc.php on line 31
+[04-Jun-2019 11:24:24 Europe/Sarajevo] PHP Notice:  Undefined offset: 0 in /home/kl1ag1/public_html/gs1a/theme/Klasa/header.inc.php on line 31
+[04-Jun-2019 11:24:40 Europe/Sarajevo] PHP Notice:  Undefined offset: 0 in /home/kl1ag1/public_html/gs1a/theme/Klasa/header.inc.php on line 31
+[04-Jun-2019 11:24:41 Europe/Sarajevo] PHP Notice:  Undefined offset: 0 in /home/kl1ag1/public_html/gs1a/theme/Klasa/header.inc.php on line 31
+[04-Jun-2019 11:24:42 Europe/Sarajevo] PHP Notice:  Undefined offset: 0 in /home/kl1ag1/public_html/gs1a/theme/Klasa/header.inc.php on line 31
+[04-Jun-2019 11:24:45 Europe/Sarajevo] PHP Notice:  Undefined offset: 0 in /home/kl1ag1/public_html/gs1a/theme/Klasa/header.inc.php on line 31
+[04-Jun-2019 11:31:17 Europe/Sarajevo] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[04-Jun-2019 11:31:17 Europe/Sarajevo] PHP Notice:  Undefined offset: 0 in /home/kl1ag1/public_html/gs1a/theme/Klasa/header.inc.php on line 31
+[04-Jun-2019 11:31:25 Europe/Sarajevo] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[04-Jun-2019 11:32:06 Europe/Sarajevo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/kl1ag1/public_html/gs1a/admin/upload.php on line 183
+[04-Jun-2019 11:32:06 Europe/Sarajevo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/kl1ag1/public_html/gs1a/admin/upload.php on line 235
+[04-Jun-2019 11:32:06 Europe/Sarajevo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/kl1ag1/public_html/gs1a/admin/upload.php on line 271
+[04-Jun-2019 11:32:06 Europe/Sarajevo] PHP Notice:  A non well formed numeric value encountered in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 1198
+[04-Jun-2019 11:32:06 Europe/Sarajevo] PHP Notice:  A non well formed numeric value encountered in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 1198

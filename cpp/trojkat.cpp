@@ -31,16 +31,21 @@ int main(int argc, char **argv)
     }
     else
     {
-            cout<<"Mozna skonstruowac trójkąt";
-            if (sqrt(a^2+b^2)=c){
-                cout<<"Masz trójkąt prostokątny"}
-            else if (sqrt(a^2+c^2)=b){
-                cout<<"Masz trójkąt prostokątny"}
-            else if (sqrt(b^2+c^2)=a){
-                cout<<"Masz trójkąt prostokątny"}
-            else{
-                cout<<"Nie masz trójkątu prostokątnego"}
+            cout<<"Można skonstruować trójkąt"<<endl;
     }
+
+    if (sqrt(a*a+b*b)==c)
+    {
+        cout<<"To trójkąt prostokątny";
+        }
+    else if (sqrt(a*a+c*c)==b)
+    {
+        cout<<"To trójkąt prostokątny";
+        }
+    else if (sqrt(c*c+b*b)==a)
+    {
+        cout<<"To trójkąt prostokątny";
+        }
     return 0;
 }
 

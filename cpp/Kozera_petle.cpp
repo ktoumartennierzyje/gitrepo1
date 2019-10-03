@@ -44,7 +44,7 @@ void prostokat2(int a=1, int b=1){
     }
 
 void choinka(int x){
-    cout << "Podaj rozmiar";
+    cout << "Podaj rozmiar: ";
     cin >> x;
     int i, j;
     for (i=1; i<=x; i++){

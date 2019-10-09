@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Formularz w boostrapie">
+    <meta name="description" content="Formularz w Bootstrapie">
     <title>Formularz</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
@@ -27,44 +27,55 @@
         </div>
     </nav>
     <div class="container-fluid">
-    	<div class="row">
-    		<div class="col">
+            <div class="row">
+                <div class="col">
 <?php
-
-echo '<h2>Pzretwarzanie formularza</h2>';
+echo '<h2>Przetwarzanie formularza</h2>';
 print_r($_POST);
-if (isset($_POST['login']))
-	echo '<p>witaj '.$_POST['login'].'</p>';
+// var_dump(empty($_POST['login']));
+// $login = trim($_POST['login']);
+foreach ($_POST as $k => $v) {
+    echo $k.' '.$v.'<br>';
+    if (strlen($v) > 15)
+    	$v = substr($v, 0, 14);
+    ${$k} = htmlspecialchars(trim($v));
+}
+if (isset($login)){
+    echo '<p>Witaj '.$login.'</p>';
+    echo '<p> Twoje hasło: '. $haslo.'</p>';
+}
 else
-	echo'<p>Zaloguj się</p>';
+    echo '<p>Zaloguj się!</p>';
 ?>
-    		</div>
-    	</div>
+
+                </div>
+            </div>
         <div class="row">
-        <div class="col-3" >&nbsp;</div>
+            <div class="col-3">&nbsp;</div>
             <div class="col">
-                <h1 class="text-center tytul">
-                    <span>Formularz w boostrapie</span>
-                    <small>- klasa informatyczna</small>
+                <h1 class="text-center">
+                    Formularz<small>– w Bootstrapie</small>
                 </h1>
+
+                <P>&nbsp;&nbsp;&nbsp;&nbsp;Tag akapitu &lt;p&gt;&lt;/p&gt; </P>
+
+
                 <hr>
-                <form actions="formularz.php" method="POST" name="dane" id="id">
+                <form action="formularz.php" method="POST" name="dane" id="dane">
                     <input type="hidden" name="id_user" value="10">
                     <div class="form-group">
                         <label for="login">Login:</label>
-                        <input type="text" name="login" id="login" class="form-control" required="required">
+                        <input type="text" name="login" id="login" class="form-control" maxlength="15">
                     </div>
                     <div class="form-group">
                         <label for="email">Email:</label>
-                        <input type="email" name="email" id="email" class="form-control" required="required">
+                        <input type="email" name="email" id="email" class="form-control" >
                     </div>
                     <div class="form-group">
                         <label for="haslo">Hasło:</label>
-                        <input type="password" name="haslo" id="haslo" class="form-control" required="required">
+                        <input type="password" name="haslo" id="haslo" class="form-control" maxlength="15">
                     </div>
-                    <div class="form-check">
-                        <label for="haslo">Wybierz płeć: </label>
-                    </div>
+                    <label>Wybierz płeć:</label>
                     <div class="form-check">
                         <input class="form-check-input" type="radio" name="plec" value="m" id="radio1">
                         <label class="form-check-label" for="radio1">Mężczyzna</label>
@@ -75,26 +86,27 @@ else
                     </div>
                     <div class="form-check">
                         <input class="form-check-input" type="radio" name="plec" value="n" id="radio3" checked>
-                        <label class="form-check-label" for="radio3">odmowa</label>
+                        <label class="form-check-label" for="radio1">Odmowa</label>
                     </div>
-                    <label for="haslo">Wybierz dodatki: </label>
+                    <label>Wybierz dodatki:</label>
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" name="dodatek1" value="d1" id="dodatek1">
-                        <label class="form-check-label" for="dodatek1">Dodatek1</label>
+                        <label class="form-check-label" for="dodatek1">Dodatek 1</label>
                     </div>
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" name="dodatek2" value="d2" id="dodatek2">
-                        <label class="form-check-label" for="dodatek2">Dodatek2</label>
+                        <label class="form-check-label" for="dodatek2">Dodatek 2</label>
                     </div>
-                    <label>Wybierz płeć z listy</label>
+                    <label>Wybierz płeć z listy:</label>
                     <select name="plec2" class="form-control">
-                        <option vlaue="m">Mężczyzna</option>
-                        <option vlaue="k">Kobieta</option>
-                        <option vlaue="o" selected>Odmowa</option>
+                        <option value="m">Mężczyzna</option>
+                        <option value="k">Kobieta</option>
+                        <option value="n" selected>Odmowa</option>
                     </select>
                     <input type="submit" value="Wyślij" class="btn btn-primary">
                 </form>
             </div>
+            <div class="col-3">&nbsp;</div>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

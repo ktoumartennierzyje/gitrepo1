@@ -9,23 +9,28 @@
 
 using namespace std;
 
-void awans (int &staz, int &zarobek)
+void awans (float staz, float &zarobek, int &lata)
 {
-
+    for(lata; staz <= lata; staz ++)
+        {
+            zarobek += 0.1 * zarobek;
+        }
 }
 
-void (int staz, int zarobek)
+void drukuj(int lata, float zarobek)
 {
-    cout<<"Pracujesz "<<staz<<" lat  i zarabiasz "<<zarobek;
+    cout<<"Pracujesz "<<zarobek<<" lat  i zarabiasz "<<lata;
 }
 
 int main(int argc, char **argv)
 {
-    int staż = 1;
-    int zarobek = 1000;
+    float staz = 1;
+    float zarobek = 1000;
     int lata = 0;
     cout << "Ile lat Pracujesz?"<<endl;
-    cin << lata;
+    cin >> lata;
+    awans(staz, zarobek, lata);
+    drukuj(zarobek, lata);
     return 0;
 }
 

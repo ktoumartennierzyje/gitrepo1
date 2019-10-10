@@ -9,17 +9,19 @@
 
 using namespace std;
 
-void awans (float staz, float &zarobek, int &lata)
+void awans (float &staz, float &zarobek, int &lata)
 {
-    for(lata; staz <= lata; staz ++)
+    for(lata; staz < lata; staz ++)
         {
-            zarobek += 0.1 * zarobek;
+            cout<<"Pracujesz "<<staz<<" lat  i zarabiasz "<<zarobek<<endl;
+            zarobek += 0.1*zarobek;
         }
 }
 
-void drukuj(int lata, float zarobek)
+void drukuj(int staz, float zarobek)
 {
-    cout<<"Pracujesz "<<zarobek<<" lat  i zarabiasz "<<lata;
+
+    cout<<"Pracujesz "<<staz<<" lat  i zarabiasz "<<zarobek;
 }
 
 int main(int argc, char **argv)
@@ -30,7 +32,7 @@ int main(int argc, char **argv)
     cout << "Ile lat Pracujesz?"<<endl;
     cin >> lata;
     awans(staz, zarobek, lata);
-    drukuj(zarobek, lata);
+    drukuj(lata, zarobek);
     return 0;
 }
 

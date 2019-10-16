@@ -1,0 +1,70 @@
+body {
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+    padding-top: 4.5rem;
+}
+
+.tabtytul {
+    /* tabelka z grafik¹ (nag³ówek) */
+    background-color: #80c2ab;
+    border-bottom: 2px solid #808080
+}
+
+.tytul {
+    /* komórka z tytu³em */
+    color: #ff0000;
+}
+
+.tytulnapis {
+    /* tytu³ strony z cieniem (tylko IE) */
+    padding-left: 10px;
+    width: 400px;
+    height: 60px;
+    filter: Shadow(Color=#666666, Direction=150);
+    color: 000000;
+}
+
+.tabela {
+    /* tabela z planem */
+    border-color: #000000
+}
+
+
+th {
+    background-color: #626262;
+    color: #ffffff;
+}
+
+a.n {
+    /* nauczyciel */
+    color: #600000
+}
+
+a.s {
+    /* sala */
+    color: #600000
+}
+
+a.k {
+    /* klasa */
+    color: #000099
+}
+
+.p {
+    /* przedmiot */
+    color: #000000;
+    font-weight: bold
+}
+
+.op {
+    /* napis */
+    font: 10px verdana, sans-serif
+}
+
+@media print {
+    .tabtytul {
+        /* nag³ówek do druku */
+        display: none
+    }
+}

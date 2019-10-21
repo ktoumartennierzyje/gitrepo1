@@ -1,60 +1,37 @@
 /*
  * tablica.cpp
+ *
  * Copyright 2019  <>
  */
 
 
 #include <iostream>
-
 using namespace std;
 
-void pobierzOceny(int t[], int r)
-{
-    cout << "Podaj 5 ocen: " << endl;
-    int i;
-    for (i = 0; i < r; i++)
-    {
-        cin >> t[i];
+void pobierzOceny(float t[],int r){
+    for(int i=0;i<r;i++){
 
-    }
+    cin>>t[i];
 }
-
-void drukujTab(int t[], int r)
-{
-    int i;
-    for (i = 0; i < r; i++)
-    {
-        cout << t[i]<<" ";
-    }
 }
-
-float sredniaOcen(int t[], int r ,float srednia)
-{
-    int i;
-    int s;
-    for (i = 0; i < r; i++)
-    {
-        s =+ t[i];
-    }
-    srednia = float(s) / float(r);
-    return srednia;
+void srednia(float t[],int r,float s){
+    for(int i=0;i<r;i++){
+    s+=t[i]/r;
 }
-
-
+cout<<"Twoja srednia to: ";
+    cout<<s;
+}
 
 int main(int argc, char **argv)
 {
-    float srednia = 0;
-    cout << "Ile ocen podasz";
-    int rozmiar;
-    cin >> rozmiar;
-    int tablica[rozmiar];
-    cout << tablica << endl;
-    pobierzOceny(tablica, rozmiar);
-    drukujTab(tablica, rozmiar);
-    sredniaOcen(tablica, rozmiar, srednia);
-    cout << srednia;
+    cout <<"Ile podasz ocen? ";
+    int r;
+    cin>>r;
+    float t[r];
+    float s=0;
 
+    pobierzOceny(t,r);
+    srednia(t,r,s);
 
     return 0;
 }

@@ -3,7 +3,7 @@
 $pages = array(
 	'witam' => 'Witamy',
 	'formularz' => 'Formularz',
-	'klasa' => 'Klasy'
+	'klasa' => 'Klasa'
 );
 
 function get_menu($id){

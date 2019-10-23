@@ -25,29 +25,29 @@ void litery2liczby(char tabzn[], int rozmiar){
 
 void koduj(char tabzn[], int rozmiar = 11){
     int i = 0;
-    for (i = 0; i<rozmiar; i++){
+    for (i = 0; i<20; i++){
         cout << tabzn[i] <<" - "<<(int)tabzn[i] << endl;
     }
     }
 
-void odkoduj (int tabli[], int rozmiar=11){
+void odkoduj (int tabli[], int rozmiar=20){
     int i = 0;
-    for (i = 0; i<11; i++){
+    for (i = 0; i<15; i++){
         cout << tabli[i] <<" - "<<(char)tabli[i] << endl;
     }
     }
 
 int main(int argc, char **argv)
 {
-    int rozmiar = 13;
+    int rozmiar = 20;
     //char napis[rozmiar] = "Ala ma kota!";
     //ascii();
     //cout << endl;
     //litery2liczby(napis, rozmiar);
-    char napis2[11] = "ZakodOwanE";
+    char napis2[25] = "Marian pijany pod mostem";
     koduj(napis2, rozmiar);
     cout<< endl;
-    int napis3[11] = {90, 97, 107, 111, 100, 79, 119, 97, 110, 69, 90};
+    int napis3[20] = {112, 111, 103, 99, 122, 109, 101, 110, 105, 107, 0};
     odkoduj(napis3, rozmiar);
     return 0;
 }

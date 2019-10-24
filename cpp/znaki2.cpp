@@ -44,10 +44,10 @@ int main(int argc, char **argv)
     //ascii();
     //cout << endl;
     //litery2liczby(napis, rozmiar);
-    char napis2[25] = "Marian pijany pod mostem";
+    char napis2[25] = "ZAkodoWane";
     koduj(napis2, rozmiar);
     cout<< endl;
-    int napis3[20] = {112, 111, 103, 99, 122, 109, 101, 110, 105, 107, 0};
+    int napis3[20] = {90, 97, 107, 111, 100, 79, 119, 97, 110, 69, 90};
     odkoduj(napis3, rozmiar);
     return 0;
 }

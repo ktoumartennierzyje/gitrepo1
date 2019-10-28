@@ -5,27 +5,28 @@
 
 #include <iostream>
 #include <iomanip>
-
 using namespace std;
 
-#define N   10//stała
-#define M   10//stała
+#define N   11
+#define M   11
 
 int main(int argc, char **argv)
 {
-    int tab2w[N][M];
+    int tab2W[N][M];
     int i, j;
-    srand(time(NULL)); //inicjacja generatora liczb pseudolosowych
-
-    for (i=0; i<N; i++){
-        cout << "===========Tablica=========" << i << endl;
-        for (j=0; j<M; j++){
-            tab2w[i][j] = i*j;
-            cout <<tab2w[i][j]<<" ";
+    srand(time(NULL)); //inicjacja generatora liczb pseudolosowych.
+    for (i = 1;i < N; i++)
+        {
+        cout << i ;
+        for(j = 0; j < M; j++)
+            {
+            tab2W[i][j] = i * j;
+            cout << setw(4) << tab2W[i][j] << " ";
             }
-            cout<<endl;
+        cout << endl;
+
+
         }
 
     return 0;
 }
-

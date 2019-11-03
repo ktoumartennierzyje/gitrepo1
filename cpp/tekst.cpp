@@ -14,13 +14,15 @@ int main(int argc, char **argv)
 {
     char tekst[ROZMIAR];
     int i;
-    int j;
+    int j = 1;
     cout<<"Podaj zdanie: "<<endl;
     cin.getline(tekst, ROZMIAR);
     for (i = 0; i < ROZMIAR ; i++){
-        cout << tekst[i];
+        if(int(tekst[i])== 32){
+            j +=1;
         }
-
+        }
+    cout<<"Liczba slow tym zdaniu: "<<j;
     return 0;
 }
 

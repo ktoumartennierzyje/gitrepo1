@@ -14,7 +14,7 @@ int main(int argc, char **argv)
     cin>>a;
     cin>>b;
     cin>>c;
-    cout<<"F(x) = "<<a<<"x2 * "<<b<<"x * "<<c<<endl;
+    cout<<"F(x) = "<<a<<"x2 + "<<b<<"x + "<<c<<endl;
     d = pow(b,2)-4*a*c;
     cout<<"Delta = "<<d<<endl;
     if (d>0){

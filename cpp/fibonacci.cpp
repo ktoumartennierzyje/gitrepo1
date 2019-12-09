@@ -20,6 +20,15 @@ int fibonacci_it(int n) {
     return wynik;
 }
 
+int fib_re(int n){
+    if(n<2){
+        return 1;
+    }
+    else{
+        return fib_re(n-1)+fib_re(n-2);
+    }
+}
+
 int main(int argc, char **argv)
 {
     cout << fibonacci_it(0) << endl;

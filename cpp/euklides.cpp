@@ -29,6 +29,21 @@ void euklides(int a, int b, int i){
     cout<<"NWD: " << a<<endl;
     cout<<"Powtórzenia: " << i<< endl;
     }
+
+int NWD_re1(int a, int b){
+    if (a!=0){
+        return NWD_re1(a % b, b - (a%b));
+    }
+    else
+        return b;
+}
+int NWD_re2(int a, int b){
+    if(b!=0){
+        return NWD_re2(b, a % b);
+    }
+    else return a;
+    }
+
 int main(int argc, char **argv)
 {
     int a, b, i;
@@ -38,6 +53,9 @@ int main(int argc, char **argv)
     euklides(a, b, i);
     cout << "zoptymalizowany"<<endl;
     euklides1(a, b, i);
+    cout<<"rekurencja1: "<<NWD_re1(a, b)<<endl;
+    cout<<"rekurencja2: "<<NWD_re1(a, b)<<endl;
+
     return 0;
 }
 

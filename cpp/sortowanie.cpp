@@ -47,15 +47,34 @@ void zamien(int &a, int &b){
 }
 
 void selection_sort(int tab[], int n){
+    int ile = 0;
     int i,k,j;
     for(i=0; i<n; i++){
         k = i;
         for(j = i+1; j<n; j++){
-            if (tab[j]<tab[k])
+            if (tab[j]<tab[k]){
                 k = j;
+                ile++;
+            }
         }
         zamien(tab[k], tab[i]);
     }
+    cout<<"Zamian przy uzyciu selection sort: "<<ile<<endl;
+}
+
+void boubble_sort(int tab[], int n){
+    int ile = 0;
+    for (int i=n-1; i>0; i--){
+        for (int j = 0; j<i; j++){
+            //cout<<"Indeks j = "<<j<<" ";
+            if (tab[j] < tab[j + 1]){
+                zamien(tab[j], tab[j+1]);
+                ile++;
+            }
+        }
+        //cout<<endl;
+    }
+    cout<<"Zamian przy uzyciu boubble sort: "<<ile<<endl;
 }
 
 int main(int argc, char **argv)
@@ -69,6 +88,7 @@ int main(int argc, char **argv)
     copytab(tab, tab2, n);
     wyswietl(tab2, n);
     selection_sort(tab, n);
+    boubble_sort(tab2, n);
     wyswietl(tab, n);
     return 0;
 }

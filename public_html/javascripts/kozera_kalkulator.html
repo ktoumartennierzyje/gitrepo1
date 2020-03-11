@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8" />
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="jquery.css">
+    <script src="jquery-3.4.1.min.js"></script>
+</head>
+<body>
+  <h1>Kalkulator</h1>
+  <br>
+  <label for="l1">Liczba1: </label>
+  <input type="text" id="l1">
+  <label for="l2">Liczba2: </label>
+  <input type="text" id="l2">
+  <br>
+  <div class="wynik">Wynik: </div>
+  <br>
+  <button type="button" name="dodawanie">+</button>
+  <button type="button" name="odejmowanie">-</button>
+  <button type="button" name="mnozenie">*</button>
+  <button type="button" name="dzielenie">/</button>
+  <button type="button" name="dzielenie modulo">%</button>
+  <script>
+    $(document).ready(function(){
+      var l1=parseInt($("#l1").val());
+      var l2=parseInt($("#l2").val());
+      $("#dodawanie").click(function(){
+        var dodawanie = l1 + l2;
+        $("div.wynik").text(dodawanie);
+      });
+      $("#odejmowanie").click(function(){
+        var odejmowanie = l1 - l2;
+        $("div.wynik").text(odejmowanie);
+      });
+      $("#mnozenie").click(function(){
+        var mnozenie = l1 * l2;
+        $("div.wynik").text(mnozenie);
+      });
+      $("#dzielenie").click(function(){
+        If(l2=0){
+          window.alert("Nie dziel przez zero")
+        }
+        else{
+        var dzielenie = l1 / l2;
+        $("div.wynik").text(dzielenie);}
+      });
+      $("#dzielenie modulo").click(function(){
+        var dmodulo = l1 + l2;
+        $("div.wynik").text(dmodulo);
+      });
+    });
+  </script>
+</body>

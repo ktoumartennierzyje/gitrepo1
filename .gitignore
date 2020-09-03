@@ -14,3 +14,7 @@ pve
 
 # katalog konfiguracyjny aplikacji jetbrains
 .idea
+
+# C extension
+*.so
+*.exe
